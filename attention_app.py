@@ -60,13 +60,13 @@ res_model = create_res_model()
 
 '''
 
-facemesh_mapping_pic = Image.open('facemesh_mapping.jpg')
-conv_diagram_pic = Image.open('conv_diagram.jpg')
-three_strategies_pic = Image.open('three_strategies.jpg')
-tuning_results_pic = Image.open('tuning_results.jpg')
-resnet_results_pic = Image.open('resnet_results.jpg')
-approach_1_pic = Image.open('approach_1.jpg')
-approach_2_pic = Image.open('approach_2.jpg')
+facemesh_mapping_pic = Image.open('facemesh_mapping.JPG')
+conv_diagram_pic = Image.open('conv_diagram.JPG')
+three_strategies_pic = Image.open('three_strategies.JPG')
+tuning_results_pic = Image.open('tuning_results.JPG')
+resnet_results_pic = Image.open('resnet_results.JPG')
+approach_1_pic = Image.open('approach_1.JPG')
+approach_2_pic = Image.open('approach_2.JPG')
 
 class Resnetvideo(VideoTransformerBase):
     def transform(self, frame):
